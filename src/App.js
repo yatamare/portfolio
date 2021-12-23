@@ -1,24 +1,58 @@
+// React
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
 
+// Material UI
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+
+// Elements
+import NavBar from './javascript/Components/navbar';
+
+// Pages
+import HomePage from './javascript/Pages/homepage';
+import Games from './javascript/Pages/games';
+import Dev from './javascript/Pages/development';
+import Man from './javascript/Pages/management';
+
+// Styling
+import './css/App.css';
+import { makeStyles, createStyles, createMuiTheme, ThemeProvider, responsiveFontSizes } from '@material-ui/core/styles';
+
+////////////////////////////////////////////
+// Styles
+const useStyles = makeStyles((theme) =>
+  createStyles({
+
+  }),
+);
+
+////////////////////////////////////////////
+// App
 function App() {
+  const classes = useStyles();
+
+  /////////////
+  // HTML
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route exact path="/">
+            <HomePage />
+          </Route>
+          <Route exact path="/games">
+            <Games />
+          </Route>
+          <Route exact path="/dev">
+            <Dev />
+          </Route>
+          <Route exact path="/management">
+            <Man />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

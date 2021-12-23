@@ -1,0 +1,25 @@
+.textpackage {
+      position: relative;
+      top: 60%;
+      overflow: visible;
+      padding-left: 10vw;
+}
+
+.name {
+	font-Size: 3rem;
+	font-Weight: 800;
+	color: white;
+}
+
+.titles {
+      font-Size: 20px;
+      font-Weight: 300;
+      color: white;
+}
+
+@media screen and (max-width: 600px) {
+	.textpackage {
+		padding-left: 0px !important;
+		text-align: center;
+	}
+}

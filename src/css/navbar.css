@@ -1,0 +1,66 @@
+/* Sticky Container*/
+.root {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* Nav Bar*/
+.navbar {
+  margin: 0px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(0,0,0,0);
+  text-align: center;
+}
+
+/* Scoll Color Change */
+.scroll {
+  background-color: #5e3f3f;
+}
+
+/* Title */
+.title {
+  float: left;
+  color: white;
+  margin-Left: 15%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 0.6vw;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/* Nav Links */
+.navTray {
+  float: right;
+  color: white;
+  margin-Right: 10%;
+}
+
+.navGroup {
+  color: white;
+  display: inline-block;
+}
+
+.navButtons {
+  color: white;
+}
+
+/* Mobile Friendly */
+@media screen and (max-width: 800px) {
+  .title {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+  }
+  .navTray {
+    margin-right: 0;
+  }
+  .navGroup {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
