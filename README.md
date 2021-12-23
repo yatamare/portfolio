@@ -1,3 +1,9 @@
+My Portfolio.
+
+Still need some work on the homepage cards to become functional.
+
+/////////////////////
+
 View Online
 
 https://yatamare.github.io/portfolio/
