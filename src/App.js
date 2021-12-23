@@ -2,10 +2,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
 
-// Material UI
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-
 // Elements
 import NavBar from './javascript/Components/navbar';
 
@@ -22,39 +18,39 @@ import { makeStyles, createStyles, createMuiTheme, ThemeProvider, responsiveFont
 ////////////////////////////////////////////
 // Styles
 const useStyles = makeStyles((theme) =>
-  createStyles({
+	createStyles({
 
-  }),
+	}),
 );
 
 ////////////////////////////////////////////
 // App
 function App() {
-  const classes = useStyles();
+	const classes = useStyles();
 
-  /////////////
-  // HTML
-  return (
-    <div className="App">
-      <Router>
-        <NavBar />
-        <Switch>
-          <Route exact path="/">
-            <HomePage />
-          </Route>
-          <Route exact path="/games">
-            <Games />
-          </Route>
-          <Route exact path="/dev">
-            <Dev />
-          </Route>
-          <Route exact path="/management">
-            <Man />
-          </Route>
-        </Switch>
-      </Router>
-    </div>
-  );
+	/////////////
+	// HTML
+	return (
+		<div className="App">
+			<Router>
+				<NavBar />
+				<Switch>
+					<Route exact path="/">
+						<HomePage />
+					</Route>
+					<Route exact path="/games">
+						<Games />
+					</Route>
+					<Route exact path="/dev">
+						<Dev />
+					</Route>
+					<Route exact path="/management">
+						<Man />
+					</Route>
+				</Switch>
+			</Router>
+		</div>
+	);
 }
 
 export default App;
