@@ -31,7 +31,7 @@ function TitlePage() {
 	///////////// 
 	// HTML
 	return (
-		<div className={classes.image} style={{ backgroundImage: `url('https://yatamare.github.io/portfolio/public/images/openning.jpg')` }}>
+		<div className={classes.image} style={{ backgroundImage: `url('./images/openning.jpg')` }}>
 			<div className='textpackage'>
 				<span className='name'>
 					Hunter McGregor
