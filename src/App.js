@@ -32,7 +32,7 @@ function App() {
 	// HTML
 	return (
 		<div className="App">
-			<Router>
+			<Router basename="/portfolio">
 				<NavBar />
 				<Switch>
 					<Route exact path="/">
