@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ffde95a1.chunk.css",
+    "main.js": "/portfolio/static/js/main.362d8330.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.362d8330.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d6921896.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d6921896.js.map",
+    "static/js/2.06bb8200.chunk.js": "/portfolio/static/js/2.06bb8200.chunk.js",
+    "static/js/2.06bb8200.chunk.js.map": "/portfolio/static/js/2.06bb8200.chunk.js.map",
+    "static/js/3.ab0f91dc.chunk.js": "/portfolio/static/js/3.ab0f91dc.chunk.js",
+    "static/js/3.ab0f91dc.chunk.js.map": "/portfolio/static/js/3.ab0f91dc.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.ffde95a1.chunk.css.map": "/portfolio/static/css/main.ffde95a1.chunk.css.map",
+    "static/js/2.06bb8200.chunk.js.LICENSE.txt": "/portfolio/static/js/2.06bb8200.chunk.js.LICENSE.txt",
+    "static/media/4m1.2c37ba2e.png": "/portfolio/static/media/4m1.2c37ba2e.png",
+    "static/media/4m3.4599dae2.png": "/portfolio/static/media/4m3.4599dae2.png",
+    "static/media/SEO.f1a6e15c.png": "/portfolio/static/media/SEO.f1a6e15c.png",
+    "static/media/SolGame.2eaa0187.png": "/portfolio/static/media/SolGame.2eaa0187.png",
+    "static/media/SolHouse.844f559c.png": "/portfolio/static/media/SolHouse.844f559c.png",
+    "static/media/SolTown.37ecc5e6.png": "/portfolio/static/media/SolTown.37ecc5e6.png",
+    "static/media/Uptown.2b2e0f6b.png": "/portfolio/static/media/Uptown.2b2e0f6b.png",
+    "static/media/Uptownwebsite.422fae05.png": "/portfolio/static/media/Uptownwebsite.422fae05.png",
+    "static/media/Vybeliving.c267f878.png": "/portfolio/static/media/Vybeliving.c267f878.png",
+    "static/media/Vybelivinglogo.7be05f54.png": "/portfolio/static/media/Vybelivinglogo.7be05f54.png",
+    "static/media/dotaSuggestions.515d1adc.png": "/portfolio/static/media/dotaSuggestions.515d1adc.png",
+    "static/media/hyperstone.71ad9b35.png": "/portfolio/static/media/hyperstone.71ad9b35.png",
+    "static/media/pit2.6903bea9.png": "/portfolio/static/media/pit2.6903bea9.png",
+    "static/media/selfie.7c806e07.jpg": "/portfolio/static/media/selfie.7c806e07.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6921896.js",
+    "static/js/2.06bb8200.chunk.js",
+    "static/css/main.ffde95a1.chunk.css",
+    "static/js/main.362d8330.chunk.js"
+  ]
+}
