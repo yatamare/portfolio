@@ -1,6 +1,9 @@
 // React
 import React from 'react';
 
+// Image
+import Openning from '../../media/openning.jpg';
+
 // Styling
 import '../../css/titlepage.css';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
@@ -28,7 +31,7 @@ function TitlePage() {
 	///////////// 
 	// HTML
 	return (
-		<div className={classes.image} style={{ backgroundImage: `url('/images/openning.jpg')` }}>
+		<div className={classes.image} style={{ backgroundImage: `url('https://yatamare.github.io/portfolio/public/images/openning.jpg')` }}>
 			<div className='textpackage'>
 				<span className='name'>
 					Hunter McGregor
